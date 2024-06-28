@@ -1,0 +1,66 @@
+Issue_log_2 As screen:
+    LoadingSpinner: =LoadingSpinner.Controls
+
+    Container1_2 As groupContainer.horizontalAutoLayoutContainer:
+        Height: =Parent.Height
+        LayoutAlignItems: =LayoutAlignItems.Stretch
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutMode: =LayoutMode.Auto
+        Width: =Parent.Width
+        ZIndex: =1
+
+        Container2_2 As groupContainer.verticalAutoLayoutContainer:
+            DropShadow: =DropShadow.None
+            FillPortions: =0
+            Height: =75
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            LayoutWrap: =true
+            ZIndex: =1
+
+            Label1_2 As label:
+                Align: =Align.Center
+                AlignInContainer: =AlignInContainer.Center
+                AutoHeight: =true
+                FocusedBorderThickness: =2
+                Font: =Font.Arial
+                FontWeight: =FontWeight.Semibold
+                Size: =28
+                Text: ="Welcome to the IT Desk"
+                VerticalAlign: =VerticalAlign.Bottom
+                Width: =Container2_2.Width-100
+                ZIndex: =1
+
+        Container4_2 As groupContainer.horizontalAutoLayoutContainer:
+            DropShadow: =DropShadow.None
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            ZIndex: =2
+
+            Form_2 As groupContainer.horizontalAutoLayoutContainer:
+                BorderThickness: =2
+                DropShadow: =DropShadow.None
+                FillPortions: =2
+                LayoutDirection: =LayoutDirection.Vertical
+                LayoutMinHeight: =80
+                LayoutMinWidth: =250
+                LayoutMode: =LayoutMode.Auto
+                LayoutOverflowX: =LayoutOverflow
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =26
+                RadiusTopRight: =26
+                Y: |
+                    =0
+                ZIndex: =1
+
+            Container6_2 As groupContainer.horizontalAutoLayoutContainer:
+                DropShadow: =DropShadow.None
+                FillPortions: =2
+                LayoutMinHeight: =100
+                LayoutMinWidth: =250
+                LayoutMode: =LayoutMode.Auto
+                ZIndex: =2
+

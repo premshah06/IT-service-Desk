@@ -1,0 +1,88 @@
+{
+  "6793d383-2c6a-4a1f-8aac-89a2b34bbcd6": {
+    "appActions": [
+      "providers/PowerPlatform.Governance/Operations/Read",
+      "providers/PowerPlatform.Governance/Operations/Write",
+      "providers/PowerPlatform.Governance/Operations/Delete"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1676/1.0.1676.3617/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://charotaruniversity.sharepoint.com/sites/First_try": {
+        "dataSources": {
+          "Devices": {
+            "tableName": "2101d30e-d685-42da-982d-36d704f68eff"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Devices"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "6793d383-2c6a-4a1f-8aac-89a2b34bbcd6"
+  },
+  "b4b8e30b-e78e-4578-87e6-0388fef73ebe": {
+    "appActions": [],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1676/1.0.1676.3617/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://charotaruniversity.sharepoint.com/sites/First_try": {
+        "dataSources": {
+          "Devices_1": {
+            "tableName": "2101d30e-d685-42da-982d-36d704f68eff"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Devices_1"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "b4b8e30b-e78e-4578-87e6-0388fef73ebe"
+  },
+  "e0573554-8523-4039-ac45-8b68e969bf36": {
+    "appActions": [
+      "providers/PowerPlatform.Governance/Operations/Read",
+      "providers/PowerPlatform.Governance/Operations/Write",
+      "providers/PowerPlatform.Governance/Operations/Delete"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1676/1.0.1676.3617/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://charotaruniversity.sharepoint.com/sites/First_try": {
+        "dataSources": {
+          "Issue_log_1": {
+            "tableName": "e16a3bbe-96b7-413d-9ac5-dfb14a6022d9"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Issue_log_1"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "e0573554-8523-4039-ac45-8b68e969bf36"
+  }
+}
